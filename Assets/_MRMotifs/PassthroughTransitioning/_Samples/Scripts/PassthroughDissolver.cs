@@ -23,10 +23,12 @@ using UnityEngine.UI;
 
 public class PassthroughDissolver : MonoBehaviour
 {
-    [Tooltip("The range of the passthrough dissolver sphere.")] [SerializeField]
+    [Tooltip("The range of the passthrough dissolver sphere.")]
+    [SerializeField]
     private float distance = 20f;
 
-    [Tooltip("The inverted alpha value at which the contextual boundary should be enabled/disabled.")] [SerializeField]
+    [Tooltip("The inverted alpha value at which the contextual boundary should be enabled/disabled.")]
+    [SerializeField]
     private float boundaryThreshold = 0.25f;
 
     private Camera _mainCamera;

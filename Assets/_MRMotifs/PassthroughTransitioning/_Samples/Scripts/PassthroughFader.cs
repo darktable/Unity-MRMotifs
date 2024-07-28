@@ -80,7 +80,8 @@ public class PassthroughFader : MonoBehaviour
     [Tooltip("The direction of the fade effect.")]
     [SerializeField] private FadeDirection fadeDirection = FadeDirection.TopToBottom;
 
-    [Header("Fade Events")] [Tooltip("Event triggered when the fade in starts.")]
+    [Header("Fade Events")]
+    [Tooltip("Event triggered when the fade in starts.")]
     [SerializeField] private UnityEvent onStartFadeIn = new();
 
     [Tooltip("Event triggered when the fade out starts.")]

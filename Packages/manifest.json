@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.core": "66.0.0",
-    "com.meta.xr.sdk.interaction.ovr": "66.0.0",
-    "com.meta.xr.sdk.sharedassets": "66.0.0",
+    "com.meta.xr.sdk.core": "67.0.0",
+    "com.meta.xr.sdk.interaction.ovr": "67.0.1",
+    "com.meta.xr.sdk.sharedassets": "67.0.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.shadergraph": "14.0.11",
     "com.unity.textmeshpro": "3.0.9",

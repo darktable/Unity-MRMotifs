@@ -61,9 +61,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5224702894496734085}
   - component: {fileID: 485879771344656263}
-  - component: {fileID: 1304366414772974178}
   - component: {fileID: 6826210472939149144}
   - component: {fileID: 5484065886996321823}
+  - component: {fileID: 1304366414772974178}
   m_Layer: 6
   m_Name: Oppy
   m_TagString: Untagged
@@ -109,6 +109,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6826210472939149144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107983976591372239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54ec9d2b3a0a0749aa13a2bca162e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementFrameOfReference: {fileID: 0}
+  jumpSpeed: 4
+  keepPressedJumpAcceleration: 1
+  jumpButton: 5
+  respawnTransform: {fileID: 0}
+  maximumLinearSpeed: 0.9
+  gravity: -9.8
+--- !u!114 &5484065886996321823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107983976591372239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9101f3f5e15d63e469356509aa451bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oppyMaterial: {fileID: 2100000, guid: 41b0900396a54ad4a81e1cd8d638b1b3, type: 2}
 --- !u!143 &1304366414772974178
 CharacterController:
   m_ObjectHideFlags: 0
@@ -135,38 +167,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.33, z: 0}
---- !u!114 &6826210472939149144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7107983976591372239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a54ec9d2b3a0a0749aa13a2bca162e54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementFrameOfReference: {fileID: 0}
-  jumpSpeed: 4
-  keepPressedJumpAcceleration: 1
-  jumpButton: 2105344
-  respawnTransform: {fileID: 0}
-  maximumLinearSpeed: 0.9
-  gravity: -9.8
---- !u!114 &5484065886996321823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7107983976591372239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9101f3f5e15d63e469356509aa451bdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  oppyMaterial: {fileID: 2100000, guid: 41b0900396a54ad4a81e1cd8d638b1b3, type: 2}
 --- !u!1001 &485879770877214258
 PrefabInstance:
   m_ObjectHideFlags: 0

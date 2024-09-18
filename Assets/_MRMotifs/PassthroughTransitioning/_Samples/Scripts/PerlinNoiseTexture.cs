@@ -17,6 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 using UnityEngine;
 
 public class PerlinNoiseTexture : MonoBehaviour
@@ -46,6 +47,12 @@ public class PerlinNoiseTexture : MonoBehaviour
     private void Awake()
     {
         _rend = GetComponent<Renderer>();
+
+        if (_rend == null)
+        {
+            Debug.LogError("Renderer component missing from this GameObject. Please add a Renderer component.");
+            return;
+        }
 
         _noiseTex = new Texture2D(pixWidth, pixHeight);
         _pix = new Color[_noiseTex.width * _noiseTex.height];

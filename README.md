@@ -10,13 +10,13 @@ You can find even more tips and tricks on [how to design Mixed Reality experienc
 
 # Requirements
 
-- Recommended Unity version: 2022.3 LTS (Project is currently on 2022.3.38f1)
+- Recommended Unity version: 2022.3.38f1 or later
 - Mac or Windows
 - BiRP or URP
-- Meta XR Core SDK (67.0.0)
-- Meta XR Interaction SDK (67.0.1)
-- Meta XR Interaction SDK Essentials (67.0.0)
-- Meta XR SDK Shared Assets (67.0.0.)
+- Meta XR Core SDK (68.0.2)
+- Meta XR Interaction SDK (68.0.1)
+- Meta XR Interaction SDK Essentials (68.0.1)
+- Meta XR SDK Shared Assets (68.0.0.)
 
 # MR Motifs Library
 

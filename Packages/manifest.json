@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.core": "67.0.0",
-    "com.meta.xr.sdk.interaction.ovr": "67.0.1",
-    "com.meta.xr.sdk.sharedassets": "67.0.0",
+    "com.meta.xr.sdk.core": "68.0.2",
+    "com.meta.xr.sdk.interaction.ovr": "68.0.1",
+    "com.meta.xr.sdk.sharedassets": "68.0.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.shadergraph": "14.0.11",
     "com.unity.textmeshpro": "3.0.9",
     "com.unity.ugui": "1.0.0",
-    "com.unity.xr.management": "4.4.1",
+    "com.unity.xr.management": "4.5.0",
     "com.unity.xr.oculus": "4.2.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
